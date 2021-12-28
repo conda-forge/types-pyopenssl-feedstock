@@ -1,5 +1,5 @@
 {% set name = "types-pyOpenSSL" %}
-{% set version = "21.0.1" %}
+{% set version = "21.0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-pyOpenSSL-{{ version }}.tar.gz
-  sha256: 462971847a3a2192a93eeaf7648b1e9fdae32e3bdeb931a1ee333113c302dc7e
+  sha256: 6683114d67efe3de33fa015ccaa097515293fbd40214ec728b1954aae30f0378
 
 build:
   number: 0
